@@ -13,7 +13,7 @@ Third Sprint:
 - [x] Create presenation slide with slogan
 - [x] Submit slide
 Presentation:
-- [ ] Create presentation title
+- [x] Create presentation title
 - [ ] Create Player_class slide
 - [ ] Create Enemy_class slide
 - [ ] Create DueloftheCaptains slide(s)
