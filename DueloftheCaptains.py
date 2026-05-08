@@ -39,13 +39,20 @@ while True:
             pass
 
     enemy.enemy_turn()
-    if enemy.decision == 1:
-        if player.action != "3" and enemy.loaded == True:
+    if enemy.decision == 1 and enemy.loaded == False:
+        print("The enemy blundered!")
+        pass
+    if enemy.decision == 1 and enemy.loaded == True:
+        if player.action != "3":
             print("The enemy's attack landed! You've taken 20 damage!")
             player.health -= 20
             enemy.loaded = False
-    if enemy.decision == 4:
-        if player.action != "3" and enemy.bowsprit == True:
+        elif player.action == 3:
+            enemy.loaded = False
+    if enemy.decision == 4 and enemy.bowsprit == False:
+        print("The enemy blundered!")
+    if enemy.decision == 4 and enemy.bowsprit == True:
+        if player.action != "3":
             print("The enemy crashed into your ship!!! You've taken 60 damage, but the enemy has lost their ability to evade and took 20 damage!")
             player.health -= 60
             enemy.health -= 20
