@@ -16,6 +16,6 @@ Presentation:
 - [x] Create presentation title
 - [x] Create Player_class slide
 - [x] Create Enemy_class slide
-- [ ] Finish DueloftheCaptains slide(s)
-- [ ] Present on Friday
-- [ ] Figure out how to submit presentation recording/screenshot
+- [x] Finish DueloftheCaptains slide(s)
+- [x] Present on Friday
+- [x] Figure out how to submit presentation recording/screenshot
